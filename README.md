@@ -3,7 +3,7 @@ An analysis of bigrams occurring in the user reviews of bars in the Yelp Dataset
 
 For this project, I analyzed Yelp user reviews of businesses categorized as bars. The goal was to count the most frequently used two-word phrases in both positive and negative reviews, and to compare the frequency with which these words were used in reviews with the frequency of their use in the English language, as measured by Google Books’ n-gram corpora.
 
-The 'data_preprocess.py' script takes the two Yelp JSON datasets as input and extracts the text of the positive (5-star) reviews of bars and the text of the negative (2 or fewer stars) reviews of bars. These reviews are written to the tab-delimited .txt files, 'pos_bigrams.txt' and 'neg_bigrams.txt'.
+The 'data_preprocess.py' script takes the two Yelp JSON datasets ('yelp_academic_dataset_business.json' and 'yelp_academic_dataset_review.json') as input and extracts the text of the positive (5-star) reviews of bars and the text of the negative (2 or fewer stars) reviews of bars. These reviews are written to the tab-delimited .txt files, 'pos_bigrams.txt' and 'neg_bigrams.txt'. The Yelp JSON dataset files are not included in this repository but are available for download from http://www.yelp.com/dataset_challenge. 
 
 The 'bigram_analysis.py' script takes those text files as input and conducts the word count analysis that is the focus of this project. The script two more text files, 'pos_bgs_cts_probs.txt' and 'neg_bgs_cts_probs.txt', that contain every bigram found in the user reviews, the number of times that bigram occurred, and the probability of it occurring. 
 
