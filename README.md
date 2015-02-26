@@ -10,3 +10,5 @@ The 'bigram_analysis.py' script takes those text files as input and conducts the
 The probabilities for ten selected, commonly-occurring bigrams from positive and negative reviews are compared to the probability of occurrence in the English language, as provided by the Google Books N-gram Viewer (https://books.google.com/ngrams). To extract this information from the Viewer, my analysis script imports and uses the nifty getngrams.py script written by Matt Nicklay, GitHub user econpy (https://www.github.com/econpy/google-ngrams). This code is based on code originally written by the Culturomics team at Harvard University. A description of the original Culturomics code can be found at http://www.culturomics.org/Resources/get-ngrams. 
 
 I compare the review probabilities of the selected bigrams to the English language probabilities of those same bigrams by creating plots ('pos_probs_chart.pdf' and 'neg_probs_chart.pdf') of the log-ratio of these probabilities.
+
+A more in-depth discussion of the project and code can be found in the 'bigram_project_report.pdf' file.
