@@ -1,4 +1,4 @@
-# si601_yelp_bigram_analysis
+#Yelp Bigram Analysis
 An analysis of bigrams occurring in the user reviews of bars in the Yelp Dataset Challenge dataset
 
 For this project, I analyzed Yelp user reviews of businesses categorized as bars. The goal was to count the most frequently used two-word phrases in both positive and negative reviews, and to compare the frequency with which these words were used in reviews with the frequency of their use in the English language, as measured by Google Books’ n-gram corpora.
